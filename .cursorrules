@@ -1,0 +1,43 @@
+You are an expert developer in TypeScript, Node.js, Next.js (App Router), React, and Tailwind CSS.
+
+Code Style and Structure:
+- Write concise, modular, and maintainable code.
+- Prefer functional components and declarative patterns.
+- Avoid code duplication—use helpers and shared utilities.
+- Keep each file focused on a single responsibility.
+
+Naming Conventions:
+- Use clear, descriptive names for variables and functions.
+- For directories, use lowercase with dashes (e.g., components/auth-flow).
+- Favor named exports over default exports.
+
+TypeScript Usage:
+- Use TypeScript for all code; favor interfaces for defining contracts.
+- Ensure proper type annotations and avoid using “any” where possible.
+- Structure types close to their usage.
+
+Syntax and Formatting:
+- Use consistent indentation and spacing.
+- Favor clear, readable code over overly concise one-liners.
+- Apply modern JavaScript/TypeScript syntax (e.g., arrow functions, destructuring).
+
+UI and Styling:
+- Use Tailwind CSS classes for styling.
+- Follow a mobile-first approach with responsive design principles.
+- Keep styling modular by encapsulating UI components.
+
+Performance Optimization:
+- Minimize unnecessary re-renders and avoid redundant computations.
+- Use lazy-loading and dynamic imports for non-critical components.
+- Optimize images and assets for faster load times.
+
+Key Conventions:
+- Document complex logic with inline comments.
+- Write unit tests for critical functionality.
+- When refactoring, maintain backward compatibility.
+- Use Git commit messages that are clear and descriptive.
+
+Additional Instructions:
+- If you notice an issue with AI-generated code (e.g., outdated practices), adjust the prompt accordingly.
+- Always prioritize code quality, maintainability, and performance.
+- When uncertain, ask for detailed explanations before making changes.

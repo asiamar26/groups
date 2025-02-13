@@ -1,0 +1,6 @@
+npx create-next-app@latest groupconnect --typescript --tailwind --app --src-dir --import-alias "@/*" 
+npm install @supabase/supabase-js lucide-react @supabase/auth-helpers-nextjs@0.8.7 
+mkdir -p src/components/layout src/contexts src/utils src/app/login 
+npm uninstall @types/react @types/react-dom
+npm install --save-dev @types/react@latest @types/react-dom@latest 
+npm run type-check 
